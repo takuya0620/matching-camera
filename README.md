@@ -6,6 +6,7 @@ Fine tuningする前段階の学習済みデータがKerasで用いることが�
 
 Mac book airで1フレームあたりの処理時間が約30秒で, リアルタイムと言うよりは連続で処理されるだけのプログラムとなった. ただし, グレースケールで画像を評価している上, 特徴点検出がうまく行えないオブジェクトを検出できるので, データセットの量や見つけたいものに限定した教師画像によって汎用的な場面で用いることができる.
 
+![画像1](img/result.png "学習済みモデルによるマッチング")
 
 "Selective Searchを使った映像からの物体検出にチャレンジ" AI coordinator
 https://ai-coordinator.jp/selective-search
@@ -14,6 +15,7 @@ Selective Searchのスクリプトを参考にした.
 "KerasでVGG16を使う" 人工知能に関する断創録
 http://aidiary.hatenablog.com/entry/20170104/1483535144
 VGG16の学習済みデータの利用方法を参考にした.
+
 
 ## ・Kerasで1つの物体を学習させてのオブジェクト検出
 ### selectiveAndLearn2.py
